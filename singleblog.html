@@ -4,12 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="">
     <title>Le monde en noir &amp; blanc</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1 id="pageTop">Titre H1</h1>
+    <header id="mainHeader">
+      <img src="img/layout/nb_logo.svg" alt="Logo N&B" id="logoImg" />
+      <h1>Le monde en noir &amp; blanc</h1>
+      <nav id="mainNav">
+        <ul>
+          <li><a href="">Accueil</a></li>
+          <li><a href="">Galeries</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">A propos</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+      <button id="menuToggle"><img src="img/layout/hamburger.svg" alt="ouvrir/fermer le menu"</button>
+    </header>
+    <!--FIN DU HEADER #mainHeader-->
+    <section id="pageContent">
+      <main id="leftCol">
+        <h1 id="pageTop">Titre H1</h1>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
       repudiandae molestias exercitationem optio iste ut blanditiis quae,
@@ -68,6 +84,14 @@
     </dl>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore a quos et nulla, veritatis iure possimus dignissimos ad laudantium magni itaque dolorum facere voluptas assumenda natus libero officiis minima vel minus! Deleniti id dicta porro laudantium quae, repellat veritatis? Sit id laborum omnis laboriosam iusto consequatur qui voluptates perspiciatis asperiores.</p>
     <p><a href="#pageTop">Retour en haut de la page</a></p>
-    <address>Nom de la société <br> 555, rue du temple<br> Paris<br>France</address>
+      </main>
+      <aside id="rightCol"></aside>
+      
+    </section>
+    <!--FIN DU SECTION #pageContent-->
+    <footer id="mainFooter">
+      <p>&copy; Copyright Erwann Bruneteau - 2023</p>
+    </footer>
+    <!--FIN DU FOOTER #mainFooter-->
   </body>
 </html>
